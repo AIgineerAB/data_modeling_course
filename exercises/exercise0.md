@@ -2,7 +2,26 @@
 
 These exercises are for you to learn fundamental concepts in data modeling. Many of them can be done with pen and paper, physical whiteboard or with an ERD software such as Lucidchart. It is good practice to work analogue as an important part of data modeling is to align various stakeholders with a mix of technical and business knowledge. It is also advised to discuss with your peers as data modeling usually is not done in solitude.
 
-## 0. Library Bookly
+## 0. Converting between data structures
+
+You have an SQL table that looks like this
+
+```sql
+CREATE TABLE Employees (
+    employee_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    department VARCHAR(50),
+    salary INT
+);
+
+INSERT INTO Employees VALUES (1, 'Hakan', 'Hakansson', 'HR', 30000);
+INSERT INTO Employees VALUES (2, 'Bob', 'Bobson', 'IT', 35000);
+```
+
+Convert this into semi-structured JSON format. Do it manually not programmatically.
+
+## 1. Library Bookly
 
 A library called Bookly keeps track of books and members who borrow them. Each book has a title, author, and ISBN number. Each member has a membership ID, name, and contact information. A member can borrow multiple books, but each book can be borrowed by only one member at a time.
 
@@ -12,48 +31,96 @@ b) Determine the `relationship` between member and books.
 
 c) Draw a `conceptual ERD` using crow foots notation.
 
+## 2. Conceptual ERD to words
 
-## 1. Conceptual ERD to words 
-
-This is an ERD conceptual diagram that a database designer and the business stakeholders agreed upon in a car rental company called Carent. 
+This is an ERD conceptual diagram that a database designer and the business stakeholders agreed upon in a car rental company called Carent.
 
 <a href="https://youtu.be/CCqQF7LZVqI" target="_blank">
   <img src="https://github.com/kokchun/assets/blob/main/data_modeling/car_rental.png?raw=true" alt="course structure" width="500">
 </a>
 
-a) Describe the entities in this conceptual ERD. 
+a) Describe the entities in this conceptual ERD.
 
-b) Write out the relationship labels. 
+b) Write out the relationship labels.
 
 c) Describe the relationships between the entities (one-to-many, one-to-one and many-to-many).
 
-d) Define the relationship assertions for example: "A Customer can have one or more Rentals".
+d) Define the relationship statement for example: "A Customer can have one or more Rentals".
 
+## 3. Online store
 
-## 2. 
+You are designing a database for an online store that sells multiple products. Customers can place multiple orders, and each order contains multiple products.
+
+a) Identify entities and their relationships
+
+b) Create a conceptual ERD with cardinalities
+
+## 4. University management system
+
+A university needs a system to manage students, courses, and professors.
+
+- each student can enroll in multiple courses.
+- each course is taught by one professor.
+- a teacher can teach multiple courses.
+
+a) Identify entities and their relationships
+
+b) Come up with possible attributes for the entities
+
+c) Draw conceptual ERD with cardinalities
+
+d) Define business rules (e.g. a student can enroll in max 4 courses)
+
+## 5. Onshop
+
+An e-commerce platform Onshop manages customers, orders, and products.
+
+- a customer can place multiple orders.
+- each order contains multiple products.
+- a product can belong to multiple categories.
+
+a) Identify key entities and their attributes (e.g., customer_name, order_date)
+
+b) Define the many-to-many relationships (e.g., order-product).
+
+c) Sketch the conceptual ERD.
+
+## 6. Theoretical questions
+
+a) What is a conceptual data model, and why is it important?
+
+b) Storing age in a database, is that a good idea, why?
+
+c) What are the three types of data structures, and how do they differ?
+
+d) Give examples of how each data structure is used in real-world applications
+
+e) What is cardinality in data modeling, and why is it important?
+
+f) What are the different steps of data modeling?
+
+g) What factors influence the choice between using an RDBMS and NoSQL?
 
 ## Glossary
 
-| Glossary                  | Meaning |
-| ------------------------- | ------- |
-| relation                  |         |
-| tuple                     |         |
-| relational model          |         |
-| domain                    |         |
-| conceptual model          |         |
-| logical model             |         |
-| physical model            |         |
-| entity relationship model |         |
-| ERD                       |         |
-| data modeling             |         |
-| rich table                |         |
-| large table               |         |
-| table extension           |         |
-| degrees of a table        |         |
-| data integrity            |         |
-| data consistency          |         |
-| relation schema           |         |
-| field                     |         |
-| attribute                 |         |
-| data type                 |         |
-|                           |         |
+| Glossary         | Meaning |
+| ---------------- | ------- |
+| RDBMS            |         |
+| relational model |         |
+| conceptual model |         |
+| logical model    |         |
+| physical model   |         |
+| ERD              |         |
+| data modeling    |         |
+| data integrity   |         |
+| data consistency |         |
+| field            |         |
+| attribute        |         |
+| data type        |         |
+| tuple            |         |
+| data redundancy  |         |
+| transaction      |         |
+| cardinality      |         |
+| one-to-one       |         |
+| one-to-many      |         |
+|                  |         |
