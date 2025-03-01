@@ -6,7 +6,6 @@ Prerequisites for this course is fundamental SQL including
 - filtering
 - aggregations
 - joins
-- CTEs
 
 In this course we'll dive into concepts of data modeling such as
 
@@ -19,11 +18,16 @@ In this course we'll dive into concepts of data modeling such as
 
 For this you will be using the following tools:
 
-| **Week** | **Content**                                                                           | **Lectures** | **Exercise** |
-| -------- | ------------------------------------------------------------------------------------- | ------------ | ------------ |
-| 1        | intro, business requirements to data model, conceptual, logical, physical models, ERD | 00-04        | 0            |
-| 2        | relation, normalization (1NF, 2Nf, 3NF, BCNF), functional dependencies, pk, fk        |              |              |
-| 3        | SQL schema design                                                                     |              |              |
-| 4        | relationships, cardinalities, one-to-one, one-to-many, many-to-many                   |              | lab          |
-| 5        | repetition                                                                            |              | lab          |
-| 6        | repetition                                                                            |              | exam, lab    |
+- lucidchart
+- postgresql
+- docker and docker compose
+- dbdiagram
+
+| **Week** | **Content**                                                                                    | **Lectures** | **Exercise** |
+| -------- | ---------------------------------------------------------------------------------------------- | ------------ | ------------ |
+| 1        | intro, business requirements to data model, conceptual, ERD, relationships, cardinalities      | 00-03        | 0            |
+| 2        | logical, physical models, normalization (1NF, 2Nf, 3NF, BCNF), functional dependencies, pk, fk | 04-07        | 1            |
+| 3        | SQL schema design                                                                              |              | 2            |
+| 4        | deep dive into relational model                                                                |              | lab          |
+| 5        | repetition                                                                                     |              | lab          |
+| 6        | repetition                                                                                     |              | exam, lab    |
