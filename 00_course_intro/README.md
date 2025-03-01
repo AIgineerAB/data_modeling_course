@@ -1,10 +1,8 @@
-# Introduction to COURSE_NAME
+# Introduction to data modeling
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/FOLDER_NAME/.png?raw=true" alt="DESCRIPTION" width="600">
+<a href="https://youtu.be/q2zMm1eZhRI" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/data_modeling/intro.png?raw=true" alt="Data modeling intro" width="600">
 </a>
-
-
 
 ## Other videos 📹
 
