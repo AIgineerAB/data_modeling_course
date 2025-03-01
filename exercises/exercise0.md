@@ -81,9 +81,9 @@ An e-commerce platform Onshop manages customers, orders, and products.
 
 a) Identify key entities and their attributes (e.g., customer_name, order_date)
 
-b) Define the many-to-many relationships (e.g., order-product).
+b) Sketch the conceptual ERD.
 
-c) Sketch the conceptual ERD.
+c) Define business rules
 
 ## 6. Theoretical questions
 
