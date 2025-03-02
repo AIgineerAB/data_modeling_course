@@ -2,7 +2,7 @@
 
 These exercises are for you to learn fundamental concepts in data modeling. Many of them can be done with pen and paper, physical whiteboard or with an ERD software such as Lucidchart. It is good practice to work analogue as an important part of data modeling is to align various stakeholders with a mix of technical and business knowledge. It is also advised to discuss with your peers as data modeling usually is not done in solitude.
 
-## 0. Converting between data structures
+## 0. Convert this table data into json data
 
 You have an SQL table that looks like this
 
@@ -19,9 +19,35 @@ INSERT INTO Employees VALUES (1, 'Hakan', 'Hakansson', 'HR', 30000);
 INSERT INTO Employees VALUES (2, 'Bob', 'Bobson', 'IT', 35000);
 ```
 
-Convert this into semi-structured JSON format. Do it manually not programmatically.
+a) Start with writing out the table with the data
 
-## 1. Library Bookly
+b) Convert this into semi-structured JSON format. Do it manually not programmatically.
+
+## 1. Convert json-file to tables
+
+You have this json data, convert it into three tables: Hospital, Department and Doctor. Fill these tables with data. Do this manually and not programmatically.
+
+```json
+{
+  "hospital": "Sjukhusstock",
+  "address": "Drottninggatan 3, Stockholm",
+  "departments": [
+    {
+      "name": "Kardiologi",
+      "doctors": [
+        { "id": 1, "name": "Dr. Abra Abrahamson" },
+        { "id": 2, "name": "Dr. Erika Eriksson" }
+      ]
+    },
+    {
+      "name": "Neurologi",
+      "doctors": [{ "id": 3, "name": "Dr. Sven Svensson" }]
+    }
+  ]
+}
+```
+
+## 2. Library Bookly
 
 A library called Bookly keeps track of books and members who borrow them. Each book has a title, author, and ISBN number. Each member has a membership ID, name, and contact information. A member can borrow multiple books, but each book can be borrowed by only one member at a time.
 
@@ -31,7 +57,7 @@ b) Determine the `relationship` between member and books.
 
 c) Draw a `conceptual ERD` using crow foots notation.
 
-## 2. Conceptual ERD to words
+## 3. Conceptual ERD to words
 
 This is an ERD conceptual diagram that a database designer and the business stakeholders agreed upon in a car rental company called Carent.
 
@@ -47,7 +73,7 @@ c) Describe the relationships between the entities (one-to-many, one-to-one and 
 
 d) Define the relationship statement for example: "A Customer can have one or more Rentals".
 
-## 3. Online store
+## 4. Online store
 
 You are designing a database for an online store that sells multiple products. Customers can place multiple orders, and each order contains multiple products.
 
@@ -55,7 +81,7 @@ a) Identify entities and their relationships
 
 b) Create a conceptual ERD with cardinalities
 
-## 4. University management system
+## 5. University management system
 
 A university needs a system to manage students, courses, and professors.
 
@@ -71,7 +97,7 @@ c) Draw conceptual ERD with cardinalities
 
 d) Define business rules (e.g. a student can enroll in max 4 courses)
 
-## 5. Onshop
+## 6. Onshop
 
 An e-commerce platform Onshop manages customers, orders, and products.
 
@@ -85,7 +111,7 @@ b) Sketch the conceptual ERD.
 
 c) Define business rules
 
-## 6. Theoretical questions
+## 7. Theoretical questions
 
 a) What is a conceptual data model, and why is it important?
 
