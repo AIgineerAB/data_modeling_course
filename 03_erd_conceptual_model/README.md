@@ -2,9 +2,17 @@
 
 In this lecture we'll go into the conceptual part of data modeling
 
+**part 1 theory**
+
 <a href="https://youtu.be/pV7myOaTRZ4" target="_blank">
   <img src="https://github.com/kokchun/assets/blob/main/data_modeling/erc_conceptual.png?raw=true" alt="DESCRIPTION" width="600">
 </a>
+
+<br>
+
+**part 2 practice in lucidcharts**
+
+TODO: video
 
 
 ## Read more 👓
