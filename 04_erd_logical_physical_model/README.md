@@ -25,3 +25,5 @@ The table shows the different data models abstractions and their content. We can
 - [How to read Logical Data Models - Ellie.ai - J. Korpela (2024)](https://www.youtube.com/watch?v=zqUqjECv5nM)
 
 ## Read more 👓
+
+- [Conceptual vs logical vs physical data models - S. Rivera (2023), ThoughtSpot](https://www.thoughtspot.com/data-trends/data-modeling/conceptual-vs-logical-vs-physical-data-models)
