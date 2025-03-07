@@ -8,7 +8,7 @@ TODO: video
 
 ## Data models abstractions
 
-The table shows the different data models abstractions and their content. We can see that conceptual is an overview suitable for business, logical may also be suitable for business, while physical is more technical and implementation ready. 
+The table shows the different data models abstractions and their content. We can see that conceptual is an overview suitable for business, logical may also be suitable for business, while physical is more technical and implementation ready.
 
 |               | Conceptual | Logical  | Physical |
 | ------------- | ---------- | -------- | -------- |
@@ -20,5 +20,8 @@ The table shows the different data models abstractions and their content. We can
 | Foreign key   |            |          | x        |
 
 ## Other videos 📹
+
+- [Data models. Conceptual Vs logical - Learning with me (2022)](https://www.youtube.com/watch?v=rzKMT5qqbQY)
+- [How to read Logical Data Models - Ellie.ai - J. Korpela (2024)](https://www.youtube.com/watch?v=zqUqjECv5nM)
 
 ## Read more 👓
