@@ -27,3 +27,5 @@ In this lecture we'll go into the conceptual part of data modeling
 
 
 ## Other videos 📹
+
+- [Introduction to data models - Neso Academy (2023)](https://www.youtube.com/watch?v=OwQoj3GJfNY)
