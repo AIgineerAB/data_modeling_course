@@ -40,6 +40,9 @@ a)
 | bridge table            |         |
 | information engineering |         |
 | attributes              |         |
+| data integrity          |         |
+| entity integrity        |         |
+| referential integrity   |         |
 |                         |         |
 
 <!-- | RDBMS             |         |
