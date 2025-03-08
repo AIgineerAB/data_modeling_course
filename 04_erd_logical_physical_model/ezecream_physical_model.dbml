@@ -1,0 +1,21 @@
+Table Customer {
+  customer_id INTEGER [primary key]
+  first_name VARCHAR(50) [not null]
+  last_name VARCHAR(50) [not null]
+  address VARCHAR(100) [not null]
+  email VARCHAR(255) [not null, unique]
+}
+
+Table Order {
+  order_id INTEGER [primary key]
+  customer_id INTEGER [not null, ref: > Customer.customer_id]
+  product_id INTEGER [not null, ref: > Product.product_id]
+  quantity INTEGER [not null]
+}
+
+Table Product {
+  product_id INTEGER [primary key] 
+  name VARCHAR(50) [not null]
+  price INTEGER [not null]
+}
+
