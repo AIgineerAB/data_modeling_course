@@ -9,3 +9,4 @@
 ## Other videos 📹
 
 ## Read more 👓
+- [Candidate keys in DBMS - geeksforgeeks (2025)](https://www.geeksforgeeks.org/candidate-key-in-dbms/?ref=next_article_top)
