@@ -28,9 +28,21 @@ a)
 
 ## Glossary
 
-| Glossary          | Meaning |
-| ----------------- | ------- |
-| RDBMS             |         |
+| Glossary                | Meaning |
+| ----------------------- | ------- |
+| composite entity        |         |
+| domain                  |         |
+| constraint              |         |
+| domain constraint       |         |
+| entity constraint       |         |
+| primary key             |         |
+| foreign key             |         |
+| bridge table            |         |
+| information engineering |         |
+| attributes              |         |
+|                         |         |
+
+<!-- | RDBMS             |         |
 | relational model  |         |
 | conceptual model  |         |
 | logical model     |         |
@@ -48,11 +60,4 @@ a)
 | cardinality       |         |
 | one-to-one        |         |
 | one-to-many       |         |
-|                   |         |
-| domain            |         |
-| constraint        |         |
-| domain constraint |         |
-| entity constraint                  |         |
-|                   |         |
-|                   |         |
-|                   |         |
+|                   |         | -->
