@@ -21,7 +21,10 @@ The table shows the different data models abstractions and their content. We can
 
 ## Database modeling language (dbml)
 
-Install [DBML extensions in vscode by Juste Bocovo](https://marketplace.visualstudio.com/items?itemName=bocovo.dbml-erd-visualizer) so that you can save your data models and store them in source control. However we'll be using [dbdiagram](https://dbdiagram.io/home) which is easy to get started online. It is good for getting started and has some neat features for auto-completion and syntax highlighting which we don't have in vscode. 
+Install [DBML extensions in vscode by Juste Bocovo](https://marketplace.visualstudio.com/items?itemName=bocovo.dbml-erd-visualizer) so that you can save your data models and store them in source control. It will give a settings.json in .vscode in your repo, add .vscode to .gitignore as this setting is only for you and not to share with others.
+
+
+However we'll be using [dbdiagram](https://dbdiagram.io/home) which is easy to get started online. It is good for getting started and has some neat features for auto-completion and syntax highlighting which we don't have in vscode. 
 
 > [!NOTE]
 > the diagrams are public when using the free version, which is okay for learning but if you are in a company setting, consider either buying it or use local development in vscode and source control with github
