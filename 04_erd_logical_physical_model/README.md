@@ -2,8 +2,8 @@
 
 TODO: video
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/FOLDER_NAME/.png?raw=true" alt="DESCRIPTION" width="600">
+<a href="https://youtu.be/ZMNRnMhWSgY" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/data_modeling/ldm_pdm.png?raw=true" alt="data modeling ldm, pdm" width="600">
 </a>
 
 ## Data models abstractions
