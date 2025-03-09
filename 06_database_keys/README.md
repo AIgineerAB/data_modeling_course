@@ -1,7 +1,7 @@
 # Working with keys in RDBMS
 
 <a href="https://youtu.be/tpTe9WiK0xU" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/data_modeling/keys_rdbms.png?raw=true" alt="DESCRIPTION" width="600">
+  <img src="https://github.com/kokchun/assets/blob/main/data_modeling/keys_rdbms.png?raw=true" alt="keys" width="600">
 </a>
 
 ## Other videos 📹
