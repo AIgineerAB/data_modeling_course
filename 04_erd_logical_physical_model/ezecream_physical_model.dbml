@@ -9,13 +9,17 @@ Table Customer {
 Table Order {
   order_id INTEGER [primary key]
   customer_id INTEGER [not null, ref: > Customer.customer_id]
+  order_date DATE [not null]
+}
+
+Table OrderLine {
+  orderline_id INTEGER [primary key]
+  order_id INTEGER [not null, ref: > Order.order_id]
   product_id INTEGER [not null, ref: > Product.product_id]
-  quantity INTEGER [not null]
 }
 
 Table Product {
-  product_id INTEGER [primary key] 
+  product_id INTEGER [primary key]
   name VARCHAR(50) [not null]
   price INTEGER [not null]
 }
-
