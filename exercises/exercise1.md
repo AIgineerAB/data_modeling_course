@@ -77,6 +77,8 @@ e) What does domain constraint mean?
 
 f) What does composite key mean and when do you use it?
 
+g) What is dbml used for? 
+
 ## Glossary
 
 | Glossary                | Meaning |
