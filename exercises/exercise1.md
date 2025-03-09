@@ -1,6 +1,6 @@
 # Exercise 0 - fundamental concepts of data modeling
 
-These exercises are for you to learn fundamental concepts in data modeling. Many of them can be done with pen and paper, physical whiteboard or with an ERD software such as Lucidchart. It is good practice to work analogue as an important part of data modeling is to align various stakeholders with a mix of technical and business knowledge. It is also advised to discuss with your peers as data modeling usually is not done in solitude.
+These exercises are for you to learn fundamental concepts in data modeling. Many of them can be done with pen and paper, physical whiteboard or with an ERD software such as Lucidchart and dbdiagram. It is good practice to work analogue as an important part of data modeling is to align various stakeholders with a mix of technical and business knowledge. It is also advised to discuss with your peers as data modeling usually is not done in solitude.
 
 ## 0.
 
@@ -43,6 +43,13 @@ a)
 | data integrity          |         |
 | entity integrity        |         |
 | referential integrity   |         |
+| relation instance       |         |
+| child entity            |         |
+| parent entity           |         |
+| natural key             |         |
+| surrogate key           |         |
+| candidate key           |         |
+| alternate key           |         |
 |                         |         |
 
 <!-- | RDBMS             |         |
