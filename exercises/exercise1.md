@@ -18,9 +18,21 @@ d) Create a physical data model using dbdiagram
 
 e) Create a few tables manually, insert given data plus some more, and try to manually link foreign keys to primary keys. Can you satisfy that a doctor can work at several departments and several hospitals? 
 
-## 1. 
+## 1. Implement hospital example in postgres 
 
-## 2.
+a) Now implement your physical model from e) and add the data from task 0e). Make sure that you have correctly specified different domain constraints.
+
+b) Now lets try to add a row in HospitalDepartment with a hospital_id that doesn't exist in the hospital table. What happens here and why? 
+
+c) Do similar to b) but try adding a department_id to HospitalDepartment that doesn't exist in the Department. 
+
+d) Now try to do normal delete a record in Hospital that the HospitalDepartment refers to. What happens? 
+
+e) Now use delete on cascade and check what happens. 
+
+f) Try to violate a domain constraint, what did you try and what result did you get? 
+
+## 2. 
 
 ## 3.
 
