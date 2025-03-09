@@ -69,6 +69,13 @@ a) The following constraints are commonly used in RDBMS:
 
 b) What does the physical modeling have that the logical data model don't have.
 
+c) How do you ensure referential integrity and why is it desirable to have it?
+
+d) How do the cardinality relationships in the modeling actually affect the implementations? 
+
+e) What does domain constraint mean? 
+
+f) What does composite key mean and when do you use it?
 
 ## Glossary
 
