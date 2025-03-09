@@ -14,3 +14,4 @@
 - [Candidate keys in DBMS - geeksforgeeks (2025)](https://www.geeksforgeeks.org/candidate-key-in-dbms/?ref=next_article_top)
 - [Concept of Keys in DBMS - Super, Primary, Candidate, Foreign Key, etc -
   Studytonight with Abhishek (2020)](https://www.youtube.com/watch?v=p3yJZH8_bsc)
+- [Alternate key - geeksforgeeks (2024)](https://www.geeksforgeeks.org/sql-alternate-key/)
