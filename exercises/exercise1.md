@@ -8,7 +8,7 @@ Going back to the hospital exercise from [exercise0, task 1](https://github.com/
 
 <img src="https://github.com/kokchun/assets/blob/main/data_modeling/conceptual_hospital.png?raw=true" alt="hospital conceptual" width="500">
 
-a) Create a logical data model using lucidcharts 
+a) Create a logical data model using lucidcharts
 
 b) Identify different keys on the various entities
 
@@ -16,41 +16,59 @@ c) Identify child entities and parent entities. What makes them into parent/chil
 
 d) Create a physical data model using dbdiagram
 
-e) Create a few tables manually, insert given data plus some more, and try to manually link foreign keys to primary keys. Can you satisfy that a doctor can work at several departments and several hospitals? 
+e) Create a few tables manually, insert given data plus some more, and try to manually link foreign keys to primary keys. Can you satisfy that a doctor can work at several departments and several hospitals?
 
-## 1. Implement hospital example in postgres 
+## 1. Implement hospital example in postgres
 
 a) Now implement your physical model from e) and add the data from task 0e). Make sure that you have correctly specified different domain constraints.
 
-b) Now lets try to add a row in HospitalDepartment with a hospital_id that doesn't exist in the hospital table. What happens here and why? 
+b) Now lets try to add a row in HospitalDepartment with a hospital_id that doesn't exist in the hospital table. What happens here and why?
 
-c) Do similar to b) but try adding a department_id to HospitalDepartment that doesn't exist in the Department. 
+c) Do similar to b) but try adding a department_id to HospitalDepartment that doesn't exist in the Department.
 
-d) Now try to do normal delete a record in Hospital that the HospitalDepartment refers to. What happens? 
+d) Now try to do normal delete a record in Hospital that the HospitalDepartment refers to. What happens?
 
-e) Now use delete on cascade and check what happens. 
+e) Now use delete on cascade and check what happens.
 
-f) Try to violate a domain constraint, what did you try and what result did you get? 
+f) Try to violate a domain constraint, what did you try and what result did you get?
 
-## 2. 
+## 2. Identify keys
 
-## 3.
+| EmployeeID | Förnamn | Efternamn | AvdelningID | E-post                       | Telefon     |
+| ---------- | ------- | --------- | ----------- | ---------------------------- | ----------- |
+| 201        | Erik    | Johansson | 1           | erik.johansson@coolfirma.se  | 070-1234567 |
+| 202        | Anna    | Karlsson  | 2           | anna.karlsson@coolfirma.se   | 073-2345678 |
+| 203        | Johan   | Andersson | 1           | johan.andersson@coolfirma.se | 072-3456789 |
+| 204        | Sara    | Lindgren  | 3           | sara.lindgren@coolfirma.se   | 076-4567890 |
+| 205        | Maria   | Svensson  | 2           | maria.svensson@coolfirma.se  | 070-5678901 |
 
-<!-- <a href="https://youtu.be/CCqQF7LZVqI" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/data_modeling/car_rental.png?raw=true" alt="course structure" width="500">
-</a> -->
 
-a)
+a) Which columns could be candidate keys here?
 
-b)
+b) From this set of candidate keys, which one would you choose as primary key and which ones as alternate keys?
+
+c) Is your primary key considered as natural key or surrogate key?
+
+d) Create another table with a primary key where one of the columns in this table could act as a foreign key.
+
+## 3. TODO: Sakila exercise
+
 
 c)
 
-d)
-
 ## X. Theoretical questions
 
-a)
+a) The following constraints are commonly used in RDBMS:
+
+- NOT NULL
+- UNIQUE
+- CHECK
+- DEFAULT
+- FOREIGN KEY
+- PRIMARY KEY
+
+b) What does the physical modeling have that the logical data model don't have.
+
 
 ## Glossary
 
