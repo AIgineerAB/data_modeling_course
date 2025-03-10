@@ -32,6 +32,7 @@ CREATE TABLE IF NOT EXISTS
         orderline_id SERIAL PRIMARY KEY,
         order_id INTEGER,
         product_id INTEGER,
+        quantity INTEGER,
         FOREIGN KEY (order_id) REFERENCES Orders (order_id),
         FOREIGN KEY (product_id) REFERENCES Product (product_id)
     );
