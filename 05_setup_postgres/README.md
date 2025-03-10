@@ -56,3 +56,4 @@ TODO: more instructions to come here ...
 ## Other videos 📹
 
 ## Read more 👓
+- [Using PostgreSQL SERIAL to Create Auto-increment Column - postgres tutorial NEON](https://neon.tech/postgresql/postgresql-tutorial/postgresql-serial)
