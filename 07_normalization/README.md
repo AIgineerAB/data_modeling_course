@@ -12,4 +12,6 @@ TBD: Video
 
 ## Read more 👓
 
+- [Database normalization - wikipedia](https://en.wikipedia.org/wiki/Database_normalization#Normal_forms)
+- [Description of the database normalization - microsoft docs](https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description)
 - [Fucntional dependency - wikipedia](https://en.wikipedia.org/wiki/Functional_dependency)
