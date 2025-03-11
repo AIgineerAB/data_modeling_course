@@ -65,6 +65,8 @@ Now you need to select the postgres server.
 
 ## Useful psql commands
 
+Used in psql CLI.
+
 | command | meaning                       |
 | ------- | ----------------------------- |
 | \d      | describe table                |
