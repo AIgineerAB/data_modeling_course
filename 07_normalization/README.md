@@ -15,3 +15,5 @@ TBD: Video
 - [Database normalization - wikipedia](https://en.wikipedia.org/wiki/Database_normalization#Normal_forms)
 - [Description of the database normalization - microsoft docs](https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description)
 - [Fucntional dependency - wikipedia](https://en.wikipedia.org/wiki/Functional_dependency)
+- [Anomalies in relational model - geeksforgeeks](https://www.geeksforgeeks.org/anomalies-in-relational-model/)
+- [First normal form - wikipedia](https://en.wikipedia.org/wiki/First_normal_form)
