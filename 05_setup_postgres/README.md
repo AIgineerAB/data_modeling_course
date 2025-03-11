@@ -48,7 +48,17 @@ to spin up the postgres container. If it doesn't work, make sure to
 
 Now you need to select the postgres server. 
 
-TODO: more instructions to come here ... 
+**Instructions to setup**
+1. Click on elephant in a cylinder symbol on the left
+2. Click plus button 
+3. On hostname type in localhost
+4. Postgres user is the same in your .env 
+5. Password same as in your .env
+6. Port number same as in your .env 
+7. Choose standard connection
+8. Choose your database - in our case data_modeling_course_db 
+9. Click enter to choose displayname
+
 
 
 
