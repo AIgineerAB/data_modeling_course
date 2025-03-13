@@ -15,3 +15,4 @@
 - [Concept of Keys in DBMS - Super, Primary, Candidate, Foreign Key, etc -
   Studytonight with Abhishek (2020)](https://www.youtube.com/watch?v=p3yJZH8_bsc)
 - [Alternate key - geeksforgeeks (2024)](https://www.geeksforgeeks.org/sql-alternate-key/)
+- [PostgreSQL composite primary keys - Data Pilot (2019), Objectrocket](https://kb.objectrocket.com/postgresql/postgresql-composite-primary-keys-629)
