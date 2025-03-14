@@ -17,3 +17,5 @@ TBD: Video
 - [Fucntional dependency - wikipedia](https://en.wikipedia.org/wiki/Functional_dependency)
 - [Anomalies in relational model - geeksforgeeks](https://www.geeksforgeeks.org/anomalies-in-relational-model/)
 - [First normal form - wikipedia](https://en.wikipedia.org/wiki/First_normal_form)
+- [Second normal form - wikipedia](https://en.wikipedia.org/wiki/Second_normal_form)
+- [Third normal form - wikipedia](https://en.wikipedia.org/wiki/Third_normal_form)
