@@ -9,6 +9,7 @@ TODO: video
 
 
 ## Other videos 📹
+- [MongoDB crash course - Traversy Media (2022)](https://www.youtube.com/watch?v=2QQGWYe7IDU&list=PL4RCxklHWZ9shwyfN0KT1KiOX6OOkNJaq&index=9)
 
 ## Read more 👓
 
