@@ -1,5 +1,7 @@
 # MongoDB
 
+In this lecture we'll get into the introcutions of MongoDB a NoSQL database, or more precisely a document database. It is useful for handling semi-structured data. However MongoDB also has SQL and also a schema validation if needing to be more strict in the schema and handling more structured data.
+
 TODO: video
 
 <!--
@@ -7,13 +9,14 @@ TODO: video
   <img src="https://github.com/kokchun/assets/blob/main/data_modeling/normalization.png?raw=true" alt="normalization" width="600">
 </a> -->
 
-
 ## Local setup using docker compose
 
-Copy the docker-compose.yaml file from this lecture and run `docker compose up -d` to spin up mongodb and mongo-express containers. To see the UI, go into the [http://localhost:8081/](http://localhost:8081/). mongo-express here is a UI for mongodb database. 
+Copy the docker-compose.yaml file from this lecture and run `docker compose up -d` to spin up mongodb and mongo-express containers. To see the UI, go into the [http://localhost:8081/](http://localhost:8081/). mongo-express here is a UI for mongodb database.
 
 > [!NOTE]
-> this setup is for local mongodb setup using docker. There is also a cloud version which offers a free version but for more storage and features there are several paid versions available. Also there is community version that can be installed if not wanting to use docker. 
+> this setup is for local mongodb setup using docker. There is also a cloud version which offers a free version but for more storage and features there are several paid versions available. Also there is community version that can be installed if not wanting to use docker.
+
+To access mongodb container do `docker exec -it mongodb bash`. Then you have
 
 ## Other videos 📹
 

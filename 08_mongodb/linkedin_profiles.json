@@ -1,0 +1,174 @@
+[
+  {
+    "user_id": 42145,
+    "first_name": "Kokchun",
+    "last_name": "Giang",
+    "about": "Data engineer, scientist, and educator passionate about turning messy data into valuable insights. Loves open-source projects and community contributions.",
+    "photo_url": "https://media.licdn.com/digitalprofile/kokchun",
+    "experience": [
+      {
+        "title": "Founder & Lead Consultant",
+        "organization": "AIgineer",
+        "start_date": "2024-01",
+        "end_date": "present",
+        "description": "Advising businesses on integrating AI solutions and developing custom data engineering pipelines."
+      },
+      {
+        "title": "Lecturer in AI and Machine Learning",
+        "organization": "IT-Högskolan",
+        "start_date": "2021-01",
+        "end_date": "2023-12",
+        "description": "Taught courses on AI, machine learning, and data analytics to undergraduate and graduate students."
+      }
+    ]
+  },
+  {
+    "user_id": 42146,
+    "first_name": "Maria",
+    "last_name": "Doe",
+    "about": "Aspiring software engineer with a passion for automating processes and exploring the intersection of AI and operations.",
+    "photo_url": "https://example.com/photos/johndoe",
+    "experience": [
+      {
+        "title": "Junior Software Engineer",
+        "organization": "Tech Innovators Inc.",
+        "start_date": "2022-05",
+        "end_date": "present",
+        "description": "Developing backend services and working on automated deployment pipelines."
+      },
+      {
+        "title": "Intern, Data Operations",
+        "organization": "DataFlow Solutions",
+        "start_date": "2021-06",
+        "end_date": "2021-08",
+        "description": "Assisted in designing and maintaining ETL processes for large-scale data ingestion."
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Sc. in Information Technology",
+        "institution": "State University",
+        "start_date": "2018-09",
+        "end_date": "2022-06",
+        "description": "Focused on software development, database management, and network security."
+      }
+    ]
+  },
+  {
+    "user_id": 42147,
+    "first_name": "Alice",
+    "last_name": "Smith",
+    "about": "AI enthusiast with a strong background in operations and a drive to integrate smart systems into everyday business.",
+    "photo_url": "https://example.com/photos/alicesmith",
+    "experience": [
+      {
+        "title": "Operations Analyst",
+        "organization": "SmartOps LLC",
+        "start_date": "2020-03",
+        "end_date": "present",
+        "description": "Utilizes data analytics and AI to optimize operational workflows and reduce inefficiencies."
+      },
+      {
+        "title": "Research Assistant in Machine Learning",
+        "organization": "Tech University Lab",
+        "start_date": "2019-01",
+        "end_date": "2020-02",
+        "description": "Supported research projects on predictive modeling and anomaly detection."
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Sc. in Industrial Engineering",
+        "institution": "Tech University",
+        "start_date": "2015-09",
+        "end_date": "2019-06",
+        "description": "Studied process optimization, statistics, and the integration of technology in manufacturing."
+      },
+      {
+        "degree": "Certification in Machine Learning",
+        "institution": "Online Bootcamp",
+        "start_date": "2020-07",
+        "end_date": "2020-12",
+        "description": "Intensive course covering the basics of machine learning, Python programming, and model deployment."
+      }
+    ]
+  },
+  {
+    "user_id": 42148,
+    "first_name": "Raj",
+    "last_name": "Patel",
+    "about": "A tech-savvy professional transitioning from traditional IT operations to AI-powered operational analytics.",
+    "photo_url": "https://example.com/photos/rajpatel",
+    "experience": [
+      {
+        "title": "IT Operations Specialist",
+        "organization": "Enterprise Solutions",
+        "start_date": "2017-04",
+        "end_date": "2021-12",
+        "description": "Managed infrastructure and led initiatives to automate system monitoring and incident response."
+      },
+      {
+        "title": "AIOps Intern",
+        "organization": "NextGen AI",
+        "start_date": "2022-01",
+        "end_date": "2022-06",
+        "description": "Worked on integrating AI models into existing IT monitoring tools for predictive maintenance."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Diploma in Information Technology",
+        "institution": "City College",
+        "start_date": "2014-09",
+        "end_date": "2017-06",
+        "description": "Covered fundamental IT concepts, networking, and system administration."
+      },
+      {
+        "degree": "Certification in Cloud Computing",
+        "institution": "Cloud Academy",
+        "start_date": "2022-07",
+        "end_date": "2022-10",
+        "description": "Focused on cloud service models, deployment architectures, and managing cloud infrastructure."
+      }
+    ]
+  },
+  {
+    "user_id": 42149,
+    "first_name": "Maria",
+    "last_name": "Garcia",
+    "about": "Data-driven professional with interests in AI, machine learning, and building robust operational frameworks for tech companies.",
+    "photo_url": "https://example.com/photos/mariagarcia",
+    "experience": [
+      {
+        "title": "Data Analyst",
+        "organization": "Analytics Pros",
+        "start_date": "2019-08",
+        "end_date": "2021-11",
+        "description": "Analyzed large datasets to drive insights for business improvements and operational efficiency."
+      },
+      {
+        "title": "MLOps Trainee",
+        "organization": "Innovative Tech Labs",
+        "start_date": "2022-01",
+        "end_date": "2022-12",
+        "description": "Supported the implementation of continuous integration pipelines for machine learning projects."
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Sc. in Statistics",
+        "institution": "University of Madrid",
+        "start_date": "2015-09",
+        "end_date": "2019-06",
+        "description": "Focused on statistical methods, data analysis, and probability theory."
+      },
+      {
+        "degree": "Short Course in Python for Data Analysis",
+        "institution": "Local Coding Bootcamp",
+        "start_date": "2020-03",
+        "end_date": "2020-05",
+        "description": "An introductory course to Python programming and data manipulation libraries."
+      }
+    ]
+  }
+]
