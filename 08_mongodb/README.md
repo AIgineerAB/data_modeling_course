@@ -2,12 +2,9 @@
 
 In this lecture we'll get into the introcutions of MongoDB a NoSQL database, or more precisely a document database. It is useful for handling semi-structured data. However MongoDB also has SQL and also a schema validation if needing to be more strict in the schema and handling more structured data.
 
-TODO: video
-
-<!--
-<a href="https://youtu.be/GLHNqVYufsw" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/data_modeling/normalization.png?raw=true" alt="normalization" width="600">
-</a> -->
+<a href="https://youtu.be/1y8o9UOvcNg" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/data_modeling/mongodb.png?raw=true" alt="mongodb" width="600">
+</a>
 
 ## Local setup using docker compose
 
