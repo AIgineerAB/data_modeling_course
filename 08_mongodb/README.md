@@ -22,4 +22,5 @@ To access mongodb container do `docker exec -it mongodb bash`. Then you have
 
 ## Read more 👓
 
--
+- [Mongodb homepage](https://www.mongodb.com/)
+- [pymongo docs](https://pymongo.readthedocs.io/en/stable/)
