@@ -7,8 +7,8 @@ TODO: video
   <img src="https://github.com/kokchun/assets/blob/main/data_modeling/normalization.png?raw=true" alt="normalization" width="600">
 </a> -->
 
-- GDPR
-- Principle of Data Minimization (GDPR Article 5)
+<!-- - GDPR
+- Principle of Data Minimization (GDPR Article 5) -->
 
 ## Other videos 📹
 
