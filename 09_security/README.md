@@ -1,11 +1,9 @@
 # Security
 
-TODO: video
 
-<!--
-<a href="https://youtu.be/GLHNqVYufsw" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/data_modeling/normalization.png?raw=true" alt="normalization" width="600">
-</a> -->
+<a href="https://www.youtube.com/watch?v=71RFbcWXh7Y" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/data_modeling/sql_injection.png?raw=true" alt="normalization" width="600">
+</a>
 
 <!-- - GDPR
 - Principle of Data Minimization (GDPR Article 5) -->
