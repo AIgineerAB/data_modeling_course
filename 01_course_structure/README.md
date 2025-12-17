@@ -1,20 +1,14 @@
 # Course structure
 
-Video: TBD
-<!-- **part 1 - video on course structure** -->
+> [!Note]
+> Materials in this folder are based on a prerequisite course. The course materials and suggested study techniques for that course are the same as for the current course. 
 
-<!-- <a href="https://www.youtube.com/watch?v=YZxZt7plGyI" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/python_videos/course_structure.png?raw=true" alt="course structure" width="600">
-</a> -->
+Video on the course structure part 1 :point_down:
 
-<!-- **part 2 - navigating github repository**
+[![course structure part 1](https://github.com/kokchun/assets/blob/main/data_warehouse/course_structure_video.png?raw=true)](https://youtu.be/dzI71WhlOpU)
 
-TODO: video -->
+[![course structure part 2](https://github.com/kokchun/assets/blob/main/data_warehouse/github_course_structure_video.png?raw=true)](https://youtu.be/D_JY1dkljSs)
 
-<!--
-<a href="https://youtu.be/woVKB99-KFg" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/sql/01_course_structure_2.png?raw=true" alt="dbeaver navigation" width="600">
-</a> -->
 
 All course material can be found in this github repository. The course material is described in this table
 
