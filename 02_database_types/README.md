@@ -12,12 +12,6 @@ Data can be categorized based on their structure into
 
 These various types of categories require different databases to store them. In this course we'll focus on relational databases (RDBMS) to store structured data. In order to efficiently and correctly store structured data we need data modeling.
 
-<!--
-- relational databases (RDBMS)
-- non-relational (NoSQL)
-- columnar databases
-- graph database
-- embedded database -->
 
 ## Read more
 
