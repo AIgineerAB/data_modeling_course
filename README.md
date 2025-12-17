@@ -19,9 +19,10 @@ In this course we'll dive into concepts of data modeling such as
 For this you will be using the following tools:
 
 - lucidchart
+- dbdiagram
 - postgresql
 - docker and docker compose
-- dbdiagram
+
 
 | **Week** | **Content**                                                                               | **Lectures** | **Exercise** |
 | -------- | ----------------------------------------------------------------------------------------- | ------------ | ------------ |

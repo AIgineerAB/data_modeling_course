@@ -11,7 +11,7 @@ All course material can be found in this github repository. The course material 
 | exercises        | some exercises and glossary                        | exercise directory           |
 | readme           | lecture notes, links to videos and other resources | lecture directory            |
 
-there is also one lab and one exam, which is only available for the students that are enrolled in this course. The lab is found in their learning management system (LMS).
+there is also one lab/exam, which is only available for the students that are enrolled in this course. The lab is found in their learning management system (LMS).
 
 ## Study tips
 
