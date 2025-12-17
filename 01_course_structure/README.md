@@ -1,14 +1,5 @@
 # Course structure
 
-> [!Note]
-> Materials in this folder are based on a prerequisite course. The course materials and suggested study techniques for that course are the same as for the current course. 
-
-Video on the course structure part 1 :point_down:
-
-[![course structure part 1](https://github.com/kokchun/assets/blob/main/data_warehouse/course_structure_video.png?raw=true)](https://youtu.be/dzI71WhlOpU)
-
-[![course structure part 2](https://github.com/kokchun/assets/blob/main/data_warehouse/github_course_structure_video.png?raw=true)](https://youtu.be/D_JY1dkljSs)
-
 
 All course material can be found in this github repository. The course material is described in this table
 
