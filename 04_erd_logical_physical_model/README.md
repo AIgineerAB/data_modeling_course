@@ -3,13 +3,13 @@
 **Part 1 theory**
 
 <a href="https://youtu.be/Mmm57l96ZKM" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/data_modeling/ldm_pdm.png?raw=true" alt="data modeling ldm, pdm" width="600">
+  <img src="https://github.com/kokchun/assets/blob/main/data_modeling/logical_physical.png?raw=true" alt="data modeling ldm, pdm" width="600">
 </a>
 
 **Part 2 practical implementation**
 
 <a href="https://youtu.be/7a-bbR_EvyE" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/data_modeling/ldm_pdm_code.png?raw=true" alt="data modeling ldm, pdm" width="600">
+  <img src="https://github.com/kokchun/assets/blob/main/data_modeling/practical_logical_physical.png?raw=true" alt="data modeling ldm, pdm" width="600">
 </a>
 
 ## Data models abstractions
