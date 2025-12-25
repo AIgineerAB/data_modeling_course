@@ -1,20 +1,5 @@
 # Course structure
 
-Video: TBD
-<!-- **part 1 - video on course structure** -->
-
-<!-- <a href="https://www.youtube.com/watch?v=YZxZt7plGyI" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/python_videos/course_structure.png?raw=true" alt="course structure" width="600">
-</a> -->
-
-<!-- **part 2 - navigating github repository**
-
-TODO: video -->
-
-<!--
-<a href="https://youtu.be/woVKB99-KFg" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/sql/01_course_structure_2.png?raw=true" alt="dbeaver navigation" width="600">
-</a> -->
 
 All course material can be found in this github repository. The course material is described in this table
 
@@ -26,7 +11,7 @@ All course material can be found in this github repository. The course material 
 | exercises        | some exercises and glossary                        | exercise directory           |
 | readme           | lecture notes, links to videos and other resources | lecture directory            |
 
-there is also one lab and one exam, which is only available for the students that are enrolled in this course. The lab is found in their learning management system (LMS).
+there is also one lab/exam, which is only available for the students that are enrolled in this course. The lab is found in their learning management system (LMS).
 
 ## Study tips
 
