@@ -1,18 +1,16 @@
 # ERD logical and physical model
 
-TODO: video
-
 **Part 1 theory**
 
-<!-- <a href="https://youtu.be/ZMNRnMhWSgY" target="_blank">
+<a href="https://youtu.be/Mmm57l96ZKM" target="_blank">
   <img src="https://github.com/kokchun/assets/blob/main/data_modeling/ldm_pdm.png?raw=true" alt="data modeling ldm, pdm" width="600">
-</a> -->
+</a>
 
 **Part 2 practical implementation**
 
-<!-- <a href="https://youtu.be/nA4Hs08EOTI" target="_blank">
+<a href="https://youtu.be/7a-bbR_EvyE" target="_blank">
   <img src="https://github.com/kokchun/assets/blob/main/data_modeling/ldm_pdm_code.png?raw=true" alt="data modeling ldm, pdm" width="600">
-</a> -->
+</a>
 
 ## Data models abstractions
 
