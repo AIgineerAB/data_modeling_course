@@ -1,36 +1,44 @@
 # ERD logical and physical model
 
+TODO: video
+
 **Part 1 theory**
 
-<a href="https://youtu.be/ZMNRnMhWSgY" target="_blank">
+<!-- <a href="https://youtu.be/ZMNRnMhWSgY" target="_blank">
   <img src="https://github.com/kokchun/assets/blob/main/data_modeling/ldm_pdm.png?raw=true" alt="data modeling ldm, pdm" width="600">
-</a>
+</a> -->
 
 **Part 2 practical implementation**
 
-<a href="https://youtu.be/nA4Hs08EOTI" target="_blank">
+<!-- <a href="https://youtu.be/nA4Hs08EOTI" target="_blank">
   <img src="https://github.com/kokchun/assets/blob/main/data_modeling/ldm_pdm_code.png?raw=true" alt="data modeling ldm, pdm" width="600">
-</a>
+</a> -->
 
 ## Data models abstractions
 
 The table shows the different data models abstractions and their content. We can see that conceptual is an overview suitable for business, logical may also be suitable for business, while physical is more technical and implementation ready.
 
-|               | Conceptual | Logical  | Physical |
-| ------------- | ---------- | -------- | -------- |
-| Entity        | x          | x        | x        |
-| Relationships | x          | x        | x        |
-| Attributes    |            | x        | x        |
-| Domain        |            | optional | x        |
-| Primary key   |            |          | x        |
-| Foreign key   |            |          | x        |
+|                                  | Conceptual | Logical | Physical |
+| -------------------------------- | ---------- | ------- | -------- |
+| Relationship Labels              | x          |         |          |
+| Entity Names                     |            | x       |          |
+| High-level Relationships         | x          | x       | x        |
+| Cardinality of Relationships     | x          | x       | x        |
+| Optionality of Relationships     | x          | x       | x        |
+| Attributes                       |            | x       |          |
+| Attribute Preliminary Data       |            | x       |          |
+| Primary keys                     |            | x       | x        |
+| Foreign keys                     |            | x       | x        |
+| Table Names                      |            |         | x        |
+| Column Names                     |            |         | x        |
+| Column Data Types (DB‑specific)  |            |         | x        |
+| Column Constraints (DB‑specific) |            |         | x        |
 
 ## Database modeling language (dbml)
 
 Install [DBML extensions in vscode by Juste Bocovo](https://marketplace.visualstudio.com/items?itemName=bocovo.dbml-erd-visualizer) so that you can save your data models and store them in source control. It will give a settings.json in .vscode in your repo, add .vscode to .gitignore as this setting is only for you and not to share with others.
 
-
-However we'll be using [dbdiagram](https://dbdiagram.io/home) which is easy to get started online. It is good for getting started and has some neat features for auto-completion and syntax highlighting which we don't have in vscode. 
+However we'll be using [dbdiagram](https://dbdiagram.io/home) which is easy to get started online. It is good for getting started and has some neat features for auto-completion and syntax highlighting which we don't have in vscode.
 
 > [!NOTE]
 > the diagrams are public when using the free version, which is okay for learning but if you are in a company setting, consider either buying it or use local development in vscode and source control with github

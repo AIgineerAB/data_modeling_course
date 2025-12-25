@@ -2,24 +2,34 @@ Table Customer {
   customer_id INTEGER [primary key]
   first_name VARCHAR(50) [not null]
   last_name VARCHAR(50) [not null]
+  email VARCHAR(255) [unique, not null]
   address VARCHAR(100) [not null]
-  email VARCHAR(255) [not null, unique]
 }
 
 Table Order {
   order_id INTEGER [primary key]
   customer_id INTEGER [not null, ref: > Customer.customer_id]
-  order_date DATE [not null]
+  order_date TIMESTAMP [not null]
 }
 
 Table OrderLine {
-  orderline_id INTEGER [primary key]
+  orderline_id INTEGER [primary key, note: "this is a surrogate key combining order_id and product_id"]
   order_id INTEGER [not null, ref: > Order.order_id]
   product_id INTEGER [not null, ref: > Product.product_id]
+  line_number SMALLINT [not null, note: "Line number is a unique value for the line"]
+  quantity SMALLINT [not null]
+  unit_price NUMERIC(5,2) [not null]
+
+  indexes {
+    (order_id, line_number) [unique]
+  }
+
 }
 
 Table Product {
   product_id INTEGER [primary key]
-  name VARCHAR(50) [not null]
-  price INTEGER [not null]
+  product_name TEXT [not null]
+  current_price NUMERIC(5,2) [not null]
+
+  Note: "Business Rule: A Product can exist without being in an OrderLine"
 }
