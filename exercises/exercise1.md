@@ -2,7 +2,21 @@
 
 These exercises are for you to learn fundamental concepts in data modeling. Many of them can be done with pen and paper, physical whiteboard or with an ERD software such as Lucidchart and dbdiagram. It is good practice to work analogue as an important part of data modeling is to align various stakeholders with a mix of technical and business knowledge. It is also advised to discuss with your peers as data modeling usually is not done in solitude.
 
-## 0. Hospital example
+## 0. Library Bookly
+Going back to the library exercise from [exercise0, task 0](https://github.com/AIgineerAB/data_modeling_course/blob/main/exercises/exercise0.md), now build the logical and physical models upon the conceptual model that you have bulit. Your conceptual model includes these entities: Book, Member and Borrow (where a borrow event is the transaction of a libray).
+
+When building your logical and physical models, consider these more detailed requirements:
+- There can be more than one copy of a book
+- For each borrow, member can borrow more than one book copy
+
+Also, think about how the models can be affected if the stakeholders require the database to store also data about (you don't need to update your models but just suggest briefly how the models should be changed):
+- Librarians
+- Reservation
+- Publishers
+- Book Categories
+
+
+## 1. Hospital example
 
 Going back to the hospital exercise from [exercise0, task 1](https://github.com/AIgineerAB/data_modeling_course/blob/main/exercises/exercise0.md), we will build logical and physical data models. This is the conceptual data model after we've added the composite entities to take care of many-to-many relationships.
 
@@ -18,7 +32,7 @@ d) Create a physical data model using dbdiagram
 
 e) Create a few tables manually, insert given data plus some more, and try to manually link foreign keys to primary keys. Can you satisfy that a doctor can work at several departments and several hospitals?
 
-## 1. Implement hospital example in postgres
+## 2. Implement hospital example in postgres
 
 a) Now implement your physical model from e) and add the data from task 0e). Make sure that you have correctly specified different domain constraints.
 
@@ -32,7 +46,7 @@ e) Now use delete on cascade and check what happens.
 
 f) Try to violate a domain constraint, what did you try and what result did you get?
 
-## 2. Identify keys
+## 3. Identify keys
 
 | EmployeeID | Förnamn | Efternamn | AvdelningID | E-post                       | Telefon     |
 | ---------- | ------- | --------- | ----------- | ---------------------------- | ----------- |
@@ -51,7 +65,7 @@ c) Is your primary key considered as natural key or surrogate key?
 
 d) Create another table with a primary key where one of the columns in this table could act as a foreign key.
 
-## 3. Sakila exercise
+## 4. Sakila exercise
 
 In SQL course we have queried the sakila database a lot to learn various concepts such as joining, union, filtering. Now lets [download it from kaggle](https://www.kaggle.com/datasets/atanaskanev/sqlite-sakila-sample-database?resource=download) and try to understand its data model.
 
@@ -70,7 +84,7 @@ e) Try to write out some possible relationship statements between the entities.
 f) Can you find if there is any errors/mistakes in this ERD? 
 
 
-## 4. Theoretical questions
+## 5. Theoretical questions
 
 a) The following constraints are commonly used in RDBMS:
 
