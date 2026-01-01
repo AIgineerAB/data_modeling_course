@@ -39,13 +39,13 @@ The json data below represent data of three table: Hospital, Department and Doct
 }
 ```
 
-a) Can you draft three table and covert these json data into rows of respective tables. 
+a) Can you draft three tables and covert these json data into rows of respective tables. 
 
-This is the conceptual data model after we've added the composite entities to take care of many-to-many relationships. We will build the logical and physical models upon it. 
+b) This is the conceptual data model after we've added the composite entities to take care of many-to-many relationships. We will build the logical and physical models upon it. 
 
 <img src="https://github.com/kokchun/assets/blob/main/data_modeling/conceptual_hospital.png?raw=true" alt="hospital conceptual" width="500">
 
-b) From the relationship cardinalities on the diagram, can you describe the business rules this hospital system, for instance, are doctor allowed to work in multiple hospitals and departments?
+From the relationship cardinalities on the diagram, can you describe the business rules of this hospital system, for instance, are doctors allowed to work in multiple hospitals and departments?
 
 c) Create a logical data model using lucidcharts
 
@@ -60,28 +60,6 @@ g) Create a few tables manually, insert given data plus some more, and try to ma
 ## 2. Implement hospital example in postgres
 
 a) Now implement your physical model from e) and add the data below. Make sure that you have correctly specified different column constraints.
-
-You have this json data for the three tables: Hospital, Department and Doctor
-
-```json
-{
-  "hospital": "Sjukhusstock",
-  "address": "Drottninggatan 3, Stockholm",
-  "departments": [
-    {
-      "name": "Kardiologi",
-      "doctors": [
-        { "id": 1, "name": "Dr. Abra Abrahamson" },
-        { "id": 2, "name": "Dr. Erika Eriksson" }
-      ]
-    },
-    {
-      "name": "Neurologi",
-      "doctors": [{ "id": 3, "name": "Dr. Sven Svensson" }]
-    }
-  ]
-}
-```
 
 b) Now lets try to add a row in HospitalDepartment with a hospital_id that doesn't exist in the hospital table. What happens here and why?
 
