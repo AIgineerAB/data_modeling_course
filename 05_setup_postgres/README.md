@@ -50,7 +50,7 @@ to spin up the postgres container. If it doesn't work, make sure to
 - be in the correct folder where you docker-compose.yml file is
 - clean up old containers and old volumes
 
-### Interact with container and postgreSQL
+### Interact with postgreSQL via Terminal
 Go into your postgres container with
 
 ```bash
@@ -63,6 +63,15 @@ psql -U your_username -d your_database
 
 > [!NOTE]
 > The password is not required when connecting to postgres locally i.e. inside of the container. When connecting from the host machine directly it will require a password. This is the default settings of postgres.
+
+### Interact with postgreSQL via python
+Check out the jupyter notebook under this lecture folder. The juypter notebook requires the python packages below. Install them using `uv`.
+
+```cmd
+ipykernel openpyxl pandas psycopg2-binary python-dotenv sqlalchemy
+```
+
+### DDL with postgreSQL (To be upated)
 
 ## Read more 👓
 
