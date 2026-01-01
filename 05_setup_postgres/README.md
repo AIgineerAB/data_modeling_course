@@ -1,32 +1,37 @@
-# Setup postgres
+# Implementation on postgres
 
-TODO: video
+We'll be using docker to spin up a postgresql instance and create a DB inside it according to a physical model as the blueprint. 
 
-<!-- <a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/FOLDER_NAME/.png?raw=true" alt="DESCRIPTION" width="600">
-</a> -->
+## 1. Docker
+Docker lets us quickly spin up an isolated PostgreSQL environment that behaves the same on every machine, making setup simple and reliable. It is especially important for data engineering pipelines because it ensures reproducible environments in your workflow. First, we will set up docker and learn about the fundamentals of Docker: 
 
-We'll be using docker and docker compose to run postgresql. Then we'll use postgresql explorer extension in vscode to run postgres directly from vscode instead of relying on pgadmin, dbeaver or similar IDEs.
+### 1a. Set up 
+Follow the video in the link to set up docker on your computer according to your OS [Video Instruction](https://github.com/AIgineerAB/data_platform_course/tree/main/04_setup_docker)
 
-## Setup
+### 1b. Docker image
+A Docker image provides the blueprint for your environment, guaranteeing that everyone runs the exact same setup. [Video Instruction](https://github.com/AIgineerAB/data_platform_course/tree/main/05_docker_image)
 
-The setup contains
+### 1c. Docker compose 
+A Docker Compose file lets you define and run multi‑container systems with a single command. It is commonly used in more complex pipelines. [Video Instruction](https://github.com/AIgineerAB/data_platform_course/tree/main/06_docker_compose)
 
-- environment
-- docker compose
-- vscode extension
+## 2. PostgreSQL
+Now, we will be spinning up a PostgreSQL container via Docker and connect it in the terminal. 
+
+<a href="https://youtu.be/fo_C6MSmtkQ" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/data_platform/postgres.png?raw=true" alt="postgres" width="600">
+</a>
+
+>[!Note]
+>CORRECTION TO THE VIDEO: due to a latest postgreSQL version, the volume path in the `docker-compose` file should be updated to `postgres_data:/var/lib/postgresql`. 
 
 ### .env file
-
-Place a .env file in the root of your repository. We will use the same postgres database with different schemas to logically group different lectures and exercises.
-
-Your .env file should contain
+Start with creating a .env in your folder and fill in information for your postgres setup:
 
 ```bash
 POSTGRES_HOST="localhost"
 POSTGRES_USER="postgres"
 POSTGRES_PASSWORD="your_supersafe_password" # NOTE: change this
-POSTGRES_DB="data_modeling_course_db"
+POSTGRES_DB="myh_db"
 POSTGRES_PORT=5432
 ```
 
@@ -45,37 +50,19 @@ to spin up the postgres container. If it doesn't work, make sure to
 - be in the correct folder where you docker-compose.yml file is
 - clean up old containers and old volumes
 
-### vscode postgres extension
+### Interact with container and postgreSQL
+Go into your postgres container with
 
-[Download this extension](https://marketplace.visualstudio.com/items?itemName=ckolkman.vscode-postgres) from the marketplace. This allows for local development directly in vscode.
+```bash
+docker exec -it postgres bash
+```
 
-Now you need to select the postgres server.
+```bash
+psql -U your_username -d your_database
+```
 
-**Instructions to setup**
-
-1. Click on elephant in a cylinder symbol on the left
-2. Click plus button
-3. On hostname type in localhost
-4. Postgres user is the same in your .env
-5. Password same as in your .env
-6. Port number same as in your .env
-7. Choose standard connection
-8. Choose your database - in our case data_modeling_course_db
-9. Click enter to choose displayname
-
-## Useful psql commands
-
-Used in psql CLI.
-
-| command | meaning                       |
-| ------- | ----------------------------- |
-| \d      | describe table                |
-| \dn     | lists schemas in the database |
-| \l      | lists databases               |
-| \c      | connect to a database         |
-| \dt     | list all relations or tables  |
-
-## Other videos 📹
+> [!NOTE]
+> The password is not required when connecting to postgres locally i.e. inside of the container. When connecting from the host machine directly it will require a password. This is the default settings of postgres.
 
 ## Read more 👓
 
