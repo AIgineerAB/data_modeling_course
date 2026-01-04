@@ -96,6 +96,8 @@ You can then run `psql` commands to interact with your postgreSQL instance. Here
 
 ### 2d. Running *.sql* files with postgreSQL in the container
 
+Use the `psql \i` command to run a simple DDL and DML queries stored in the `sql` subfolder under this lecture. You should be able to see a table created under the postgresql DB and then a row inserted into it. 
+
 > [!NOTE]
 > Now choose a physical model that you have worked with and create corresponding `.sql` files for DDL queries. Then run the files in the postgreSQL instance via container. Are you able to create tables according to you physical model?
 
