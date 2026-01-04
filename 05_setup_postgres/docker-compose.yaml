@@ -7,15 +7,15 @@ services:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB}
-    ports:
-      - "${POSTGRES_PORT}:5432"
+    ports: 
+      - "${POSTGRES_PORT}:5432" # port mapping between host machine and container
     volumes:
-      - postgres_data:/var/lib/postgresql 
-      - ./sql:/sql
-    healthcheck:
+      - postgres_data:/var/lib/postgresql # named volume created under volumes section
+      - ./sql:/sql # bind mount
+    healthcheck: # an extra check to see if the postgreSQL is initiated inside the container
       test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres}"]
       interval: 5s
       retries: 5
       timeout: 3s
 volumes:
-  postgres_data:
+  postgres_data: 
