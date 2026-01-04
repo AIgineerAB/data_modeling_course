@@ -2,6 +2,7 @@
 
 We'll be using docker to spin up a postgresql instance and create a DB inside it according to a physical model as the blueprint. 
 
+
 ## 1. Docker
 Docker lets us quickly spin up an isolated PostgreSQL environment that behaves the same on every machine, making setup simple and reliable. It is especially important for data engineering pipelines because it ensures reproducible environments in your workflow. First, we will set up docker and learn about the fundamentals of Docker: 
 
@@ -17,8 +18,9 @@ A Docker Compose file lets you define and run multi‑container systems with a s
 > [!TIP]
 > Work on [this exercise](https://github.com/AIgineerAB/data_platform_course/blob/main/exercises/exercise_2.md) to strengthen your knowledge on Docker fundamentals.
 
+
 ## 2. PostgreSQL
-Now, we will be spinning up a PostgreSQL container via Docker and connect it in the terminal. 
+Now, we will be spinning up a PostgreSQL container via Docker and connect it in the terminal. Follow the video below for this and check the notes to the video below. 
 
 <a href="https://youtu.be/fo_C6MSmtkQ" target="_blank">
   <img src="https://github.com/kokchun/assets/blob/main/data_platform/postgres.png?raw=true" alt="postgres" width="600">
@@ -27,11 +29,12 @@ Now, we will be spinning up a PostgreSQL container via Docker and connect it in 
 > [!Note]
 > - CORRECTION TO THE VIDEO: due to a latest postgreSQL version, the volume path in the `docker-compose` file should be updated to `postgres_data:/var/lib/postgresql`
 > - OPTIONAL CONTENTS IN THE VIDEO: the part of python interaction of in the video is optional for this course. If you are interested, you needs the python packages below:
-> ```cmd
-> ipykernel openpyxl pandas psycopg2-binary python-dotenv sqlalchemy
-> ```
+>   ```cmd
+>   ipykernel openpyxl pandas psycopg2-binary python-dotenv sqlalchemy
+>   ```
 
-### .env file
+Below are notes to the instructions covered in the video above:
+### 2a.env file
 Start with creating a .env in your folder and fill in information for your postgres setup:
 
 ```bash
@@ -76,6 +79,6 @@ psql -U your_username -d your_database
 
 ### DDL with postgreSQL (To be upated)
 
-## Read more 👓
 
+## Read more 👓
 - [Using PostgreSQL SERIAL to Create Auto-increment Column - postgres tutorial NEON](https://neon.tech/postgresql/postgresql-tutorial/postgresql-serial)
