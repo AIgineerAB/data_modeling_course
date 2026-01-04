@@ -1,4 +1,4 @@
-# Implementation on postgres
+# Implementation on postgreSQL
 
 We'll be using docker to spin up a postgresql instance and create a DB inside it according to a physical model as the blueprint. 
 
@@ -13,6 +13,9 @@ A Docker image provides the blueprint for your environment, guaranteeing that ev
 
 ### 1c. Docker compose 
 A Docker Compose file lets you define and run multi‑container systems with a single command. It is commonly used in more complex pipelines. [Video Instruction](https://github.com/AIgineerAB/data_platform_course/tree/main/06_docker_compose)
+
+>[!Tips]
+>Work on [this exercise](https://github.com/AIgineerAB/data_platform_course/blob/main/exercises/exercise_2.md) to strengthen your knowledge on Docker fundamentals.
 
 ## 2. PostgreSQL
 Now, we will be spinning up a PostgreSQL container via Docker and connect it in the terminal. 
