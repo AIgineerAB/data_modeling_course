@@ -24,8 +24,12 @@ Now, we will be spinning up a PostgreSQL container via Docker and connect it in 
   <img src="https://github.com/kokchun/assets/blob/main/data_platform/postgres.png?raw=true" alt="postgres" width="600">
 </a>
 
->[!Note]
->CORRECTION TO THE VIDEO: due to a latest postgreSQL version, the volume path in the `docker-compose` file should be updated to `postgres_data:/var/lib/postgresql`. 
+> [!Note]
+> - CORRECTION TO THE VIDEO: due to a latest postgreSQL version, the volume path in the `docker-compose` file should be updated to `postgres_data:/var/lib/postgresql`
+> - OPTIONAL CONTENTS IN THE VIDEO: the part of python interaction of in the video is optional for this course. If you are interested, you needs the python packages below:
+> ```cmd
+> ipykernel openpyxl pandas psycopg2-binary python-dotenv sqlalchemy
+> ```
 
 ### .env file
 Start with creating a .env in your folder and fill in information for your postgres setup:
@@ -67,12 +71,8 @@ psql -U your_username -d your_database
 > [!NOTE]
 > The password is not required when connecting to postgres locally i.e. inside of the container. When connecting from the host machine directly it will require a password. This is the default settings of postgres.
 
-### Interact with postgreSQL via python
-Check out the jupyter notebook under this lecture folder. The juypter notebook requires the python packages below. Install them using `uv`.
 
-```cmd
-ipykernel openpyxl pandas psycopg2-binary python-dotenv sqlalchemy
-```
+
 
 ### DDL with postgreSQL (To be upated)
 
