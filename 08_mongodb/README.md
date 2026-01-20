@@ -6,6 +6,13 @@ In this lecture we'll get into the introcutions of MongoDB a NoSQL database, or 
   <img src="https://github.com/kokchun/assets/blob/main/data_modeling/mongodb.png?raw=true" alt="mongodb" width="600">
 </a>
 
+> [!Note]
+> - CORRECTION TO THE VIDEO: due to a latest MONGODB version, there should be two additional environment variables for `mongo-express` container under `docker-compose.yml` to set the credentials for logging into the UI:
+>```cmd
+>ME_CONFIG_BASICAUTH_USERNAME: ${MONGO_USER}
+>ME_CONFIG_BASICAUTH_PASSWORD: ${MONGO_PASSWORD}
+
+
 ## Local setup using docker compose
 
 Copy the docker-compose.yaml file from this lecture and run `docker compose up -d` to spin up mongodb and mongo-express containers. To see the UI, go into the [http://localhost:8081/](http://localhost:8081/). mongo-express here is a UI for mongodb database.
